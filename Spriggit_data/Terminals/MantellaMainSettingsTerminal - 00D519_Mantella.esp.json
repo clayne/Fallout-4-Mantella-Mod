@@ -14,13 +14,13 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MantellaRadiantEnabled",
-            "Object": "00D51E:Mantella.esp"
+            "Name": "MantellaQuest",
+            "Object": "000F99:Mantella.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MantellaQuest",
-            "Object": "000F99:Mantella.esp"
+            "Name": "MantellaRadiantEnabled",
+            "Object": "00D51E:Mantella.esp"
           }
         ]
       },
@@ -236,8 +236,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABD28:Mantella.esp",
-            "ParameterTwoNumber": -1412776664,
+            "ParameterTwoRecord": "2C3D28:Mantella.esp",
+            "ParameterTwoNumber": 724319528,
             "ParameterTwoString": "::microphoneEnabled_var"
           }
         }
@@ -262,8 +262,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABD20:Mantella.esp",
-            "ParameterTwoNumber": -1412776672,
+            "ParameterTwoRecord": "2C3D20:Mantella.esp",
+            "ParameterTwoNumber": 724319520,
             "ParameterTwoString": "::microphoneEnabled_var"
           }
         }
@@ -313,8 +313,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABD18:Mantella.esp",
-            "ParameterTwoNumber": -1412776680,
+            "ParameterTwoRecord": "2C3D18:Mantella.esp",
+            "ParameterTwoNumber": 724319512,
             "ParameterTwoString": "::tutorialActivated_var"
           }
         }

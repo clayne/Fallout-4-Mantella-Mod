@@ -470,8 +470,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA90:Mantella.esp",
-            "ParameterTwoNumber": -1412777328,
+            "ParameterTwoRecord": "2C3A90:Mantella.esp",
+            "ParameterTwoNumber": 724318864,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },
@@ -514,8 +514,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA88:Mantella.esp",
-            "ParameterTwoNumber": -1412777336,
+            "ParameterTwoRecord": "2C3A88:Mantella.esp",
+            "ParameterTwoNumber": 724318856,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },
@@ -556,8 +556,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA80:Mantella.esp",
-            "ParameterTwoNumber": -1412777344,
+            "ParameterTwoRecord": "2C3A80:Mantella.esp",
+            "ParameterTwoNumber": 724318848,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },
@@ -643,8 +643,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA78:Mantella.esp",
-            "ParameterTwoNumber": -1412777352,
+            "ParameterTwoRecord": "2C3A78:Mantella.esp",
+            "ParameterTwoNumber": 724318840,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },
@@ -688,8 +688,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA70:Mantella.esp",
-            "ParameterTwoNumber": -1412777360,
+            "ParameterTwoRecord": "2C3A70:Mantella.esp",
+            "ParameterTwoNumber": 724318832,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },
@@ -743,8 +743,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA68:Mantella.esp",
-            "ParameterTwoNumber": -1412777368,
+            "ParameterTwoRecord": "2C3A68:Mantella.esp",
+            "ParameterTwoNumber": 724318824,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },
@@ -798,8 +798,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "0289E4:Fallout4.esm",
             "ParameterOneNumber": 166372,
-            "ParameterTwoRecord": "CABA60:Mantella.esp",
-            "ParameterTwoNumber": -1412777376,
+            "ParameterTwoRecord": "2C3A60:Mantella.esp",
+            "ParameterTwoNumber": 724318816,
             "ParameterTwoString": "::AllFollowerState_var"
           }
         },

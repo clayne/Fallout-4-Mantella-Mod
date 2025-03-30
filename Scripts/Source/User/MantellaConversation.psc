@@ -43,8 +43,7 @@ String[] _ingameEvents
 String[] _extraRequestActions
 bool _does_accept_player_input = false
 bool _hasBeenStopped
-bool _allowTopicSwitching = false
-int _DictionaryCleanTimer
+bool _allowTopicSwitching = true
 int _PlayerTextInputTimer
 string _PlayerTextInput
 bool _useNarrator = True
@@ -96,7 +95,6 @@ bool SettingsSaved = false
 bool SettingsApplied = false
 
 event OnInit()
-    _DictionaryCleanTimer = 10
     _PlayerTextInputTimer = 11
     _ingameEvents = new String[0]
     _extraRequestActions = new String[0]    
@@ -419,14 +417,16 @@ Function CleanupConversation()
     If (MantellaConversationParticipantsQuest.IsRunning())
         MantellaConversationParticipantsQuest.Stop()
     EndIf  
-    StartTimer(4,_DictionaryCleanTimer)  ;starting timer with ID 10 for 4 seconds
-    F4SE_HTTP.clearAllDictionaries()
+    ;F4SE_HTTP.clearAllDictionaries() ;This is commented out because it randomly leads to issue if a Mantella conversation is prematurely ended (infamous Error : Cannot retrieve Error bug)
     _lastNpcToSpeak = none
     RestoreSettings()
     if repository.isFirstConvo
         Debug.messagebox("The conversation started but something went wrong. Make sure that Mantella.exe is running and that your filepaths are correctly set.")
         Debug.messagebox("If the problem persists, come to the discord channel and ask for help in the #issues channel (link to the discord on the Mantella Nexus page)")
+    Else
+        debug.notification("Conversation has ended")
     endif
+    Stop()
 EndFunction
 
 Function DispelSpellFromActorsInConversation(Spell SpellToDispel)
@@ -522,11 +522,7 @@ EndEvent
 ;   Timer Management    ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 Event Ontimer( int TimerID)
-    if TimerID==_DictionaryCleanTimer
-        ;Spacing how the cleaning of dictionaries and the Stop() function are called because the game crashes on some setups when it's called directly in CleanupConversation()
-        Debug.notification("Conversation has ended!") 
-        Stop()
-    ElseIf TimerID==_PlayerTextInputTimer ;Spacing out the GenerateMantellaVision() to avoid taking a screenshot of the interface
+    If TimerID==_PlayerTextInputTimer ;Spacing out the GenerateMantellaVision() to avoid taking a screenshot of the interface
         repository.GenerateMantellaVision()
         sendRequestForPlayerInput(_PlayerTextInput)
         _does_accept_player_input = False

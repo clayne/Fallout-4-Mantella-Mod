@@ -14,28 +14,13 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerRef",
-            "Object": "000014:Fallout4.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MantellaRadAwaySpell",
-            "Object": "05D0DE:Mantella.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MantellaFunctionSourceFaction",
-            "Object": "056E10:Mantella.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "MantellaFunctionModeFaction",
             "Object": "05B279:Mantella.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "RadawayItem",
-            "Object": "023742:Fallout4.esm"
+            "Name": "repository",
+            "Object": "000F99:Mantella.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -49,18 +34,33 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "RadawaySound",
-            "Object": "02BAF4:Fallout4.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "StimpakSound",
             "Object": "02BAF2:Fallout4.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "repository",
-            "Object": "000F99:Mantella.esp"
+            "Name": "RadawayItem",
+            "Object": "023742:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MantellaRadAwaySpell",
+            "Object": "05D0DE:Mantella.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "PlayerRef",
+            "Object": "000014:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MantellaFunctionSourceFaction",
+            "Object": "056E10:Mantella.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "RadawaySound",
+            "Object": "02BAF4:Fallout4.esm"
           }
         ]
       }

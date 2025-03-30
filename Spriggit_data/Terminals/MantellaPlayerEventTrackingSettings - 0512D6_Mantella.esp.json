@@ -1,7 +1,7 @@
 {
   "FormKey": "0512D6:Mantella.esp",
   "MajorRecordFlagsRaw": 8208,
-  "VersionControl": 12634,
+  "VersionControl": 12926,
   "EditorID": "MantellaPlayerEventTrackingSettings",
   "Fallout4MajorRecordFlags": [
     "0x10",
@@ -25,6 +25,12 @@
           "Unknown2": 1,
           "ScriptName": "Fragments:Terminals:TERM_MantellaPlayerEventTr_010512D6_1",
           "FragmentName": "Fragment_Terminal_11"
+        },
+        {
+          "FragmentIndex": 22,
+          "Unknown2": 1,
+          "ScriptName": "Fragments:Terminals:TERM_MantellaPlayerEventTr_010512D6_1",
+          "FragmentName": "Fragment_Terminal_22"
         },
         {
           "FragmentIndex": 10,
@@ -55,6 +61,12 @@
           "Unknown2": 1,
           "ScriptName": "Fragments:Terminals:TERM_MantellaPlayerEventTr_010512D6_1",
           "FragmentName": "Fragment_Terminal_02"
+        },
+        {
+          "FragmentIndex": 21,
+          "Unknown2": 1,
+          "ScriptName": "Fragments:Terminals:TERM_MantellaPlayerEventTr_010512D6_1",
+          "FragmentName": "Fragment_Terminal_21"
         },
         {
           "FragmentIndex": 3,
@@ -218,8 +230,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEE8:Mantella.esp",
-            "ParameterTwoNumber": -1412776216,
+            "ParameterTwoRecord": "A38798:Mantella.esp",
+            "ParameterTwoNumber": 1000572824,
             "ParameterTwoString": "::playerTrackingOnItemAdded_var"
           }
         }
@@ -244,8 +256,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABED8:Mantella.esp",
-            "ParameterTwoNumber": -1412776232,
+            "ParameterTwoRecord": "A384F8:Mantella.esp",
+            "ParameterTwoNumber": 1000572152,
             "ParameterTwoString": "::playerTrackingOnItemAdded_var"
           }
         }
@@ -271,8 +283,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABED0:Mantella.esp",
-            "ParameterTwoNumber": -1412776240,
+            "ParameterTwoRecord": "A38920:Mantella.esp",
+            "ParameterTwoNumber": 1000573216,
             "ParameterTwoString": "::playerTrackingOnHit_var"
           }
         }
@@ -297,8 +309,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEC8:Mantella.esp",
-            "ParameterTwoNumber": -1412776248,
+            "ParameterTwoRecord": "A38590:Mantella.esp",
+            "ParameterTwoNumber": 1000572304,
             "ParameterTwoString": "::playerTrackingOnHit_var"
           }
         }
@@ -324,8 +336,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEC0:Mantella.esp",
-            "ParameterTwoNumber": -1412776256,
+            "ParameterTwoRecord": "A38570:Mantella.esp",
+            "ParameterTwoNumber": 1000572272,
             "ParameterTwoString": "::playerTrackingOnLocationChange_var"
           }
         }
@@ -350,8 +362,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEB8:Mantella.esp",
-            "ParameterTwoNumber": -1412776264,
+            "ParameterTwoRecord": "A384A0:Mantella.esp",
+            "ParameterTwoNumber": 1000572064,
             "ParameterTwoString": "::playerTrackingOnLocationChange_var"
           }
         }
@@ -377,8 +389,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEB0:Mantella.esp",
-            "ParameterTwoNumber": -1412776272,
+            "ParameterTwoRecord": "A38688:Mantella.esp",
+            "ParameterTwoNumber": 1000572552,
             "ParameterTwoString": "::playerTrackingOnObjectEquipped_var"
           }
         }
@@ -403,8 +415,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEA8:Mantella.esp",
-            "ParameterTwoNumber": -1412776280,
+            "ParameterTwoRecord": "A38918:Mantella.esp",
+            "ParameterTwoNumber": 1000573208,
             "ParameterTwoString": "::playerTrackingOnObjectEquipped_var"
           }
         }
@@ -430,8 +442,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABEA0:Mantella.esp",
-            "ParameterTwoNumber": -1412776288,
+            "ParameterTwoRecord": "A388D0:Mantella.esp",
+            "ParameterTwoNumber": 1000573136,
             "ParameterTwoString": "::playerTrackingOnSit_var"
           }
         }
@@ -456,8 +468,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE98:Mantella.esp",
-            "ParameterTwoNumber": -1412776296,
+            "ParameterTwoRecord": "A38A78:Mantella.esp",
+            "ParameterTwoNumber": 1000573560,
             "ParameterTwoString": "::playerTrackingOnSit_var"
           }
         }
@@ -483,8 +495,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE90:Mantella.esp",
-            "ParameterTwoNumber": -1412776304,
+            "ParameterTwoRecord": "A38740:Mantella.esp",
+            "ParameterTwoNumber": 1000572736,
             "ParameterTwoString": "::playerTrackingFireWeapon_var"
           }
         }
@@ -509,8 +521,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE88:Mantella.esp",
-            "ParameterTwoNumber": -1412776312,
+            "ParameterTwoRecord": "A384E0:Mantella.esp",
+            "ParameterTwoNumber": 1000572128,
             "ParameterTwoString": "::playerTrackingFireWeapon_var"
           }
         }
@@ -536,8 +548,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE80:Mantella.esp",
-            "ParameterTwoNumber": -1412776320,
+            "ParameterTwoRecord": "A385C8:Mantella.esp",
+            "ParameterTwoNumber": 1000572360,
             "ParameterTwoString": "::playerTrackingRadiationDamage_var"
           }
         }
@@ -562,8 +574,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE78:Mantella.esp",
-            "ParameterTwoNumber": -1412776328,
+            "ParameterTwoRecord": "A38558:Mantella.esp",
+            "ParameterTwoNumber": 1000572248,
             "ParameterTwoString": "::playerTrackingRadiationDamage_var"
           }
         }
@@ -589,8 +601,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE70:Mantella.esp",
-            "ParameterTwoNumber": -1412776336,
+            "ParameterTwoRecord": "A388D8:Mantella.esp",
+            "ParameterTwoNumber": 1000573144,
             "ParameterTwoString": "::playerTrackingSleep_var"
           }
         }
@@ -615,8 +627,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE68:Mantella.esp",
-            "ParameterTwoNumber": -1412776344,
+            "ParameterTwoRecord": "A388E8:Mantella.esp",
+            "ParameterTwoNumber": 1000573160,
             "ParameterTwoString": "::playerTrackingSleep_var"
           }
         }
@@ -642,8 +654,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE60:Mantella.esp",
-            "ParameterTwoNumber": -1412776352,
+            "ParameterTwoRecord": "A38820:Mantella.esp",
+            "ParameterTwoNumber": 1000572960,
             "ParameterTwoString": "::playerTrackingCripple_var"
           }
         }
@@ -668,8 +680,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE58:Mantella.esp",
-            "ParameterTwoNumber": -1412776360,
+            "ParameterTwoRecord": "A38488:Mantella.esp",
+            "ParameterTwoNumber": 1000572040,
             "ParameterTwoString": "::playerTrackingCripple_var"
           }
         }
@@ -695,8 +707,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE50:Mantella.esp",
-            "ParameterTwoNumber": -1412776368,
+            "ParameterTwoRecord": "A38530:Mantella.esp",
+            "ParameterTwoNumber": 1000572208,
             "ParameterTwoString": "::playerTrackingHealTeammate_var"
           }
         }
@@ -721,9 +733,62 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABE48:Mantella.esp",
-            "ParameterTwoNumber": -1412776376,
+            "ParameterTwoRecord": "A38580:Mantella.esp",
+            "ParameterTwoNumber": 1000572288,
             "ParameterTwoString": "::playerTrackingHealTeammate_var"
+          }
+        }
+      ]
+    },
+    {
+      "ItemText": {
+        "TargetLanguage": "English",
+        "Value": "Turn player state tracking OFF"
+      },
+      "Type": "DisplayText",
+      "ItemId": 21,
+      "DisplayText": {
+        "TargetLanguage": "English",
+        "Value": "Player state tracking is turned OFF\r\n\r\n\r\n"
+      },
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "ComparisonValue": 1.0,
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "GetVMQuestVariable",
+            "ParameterOneRecord": "000F99:Mantella.esp",
+            "ParameterOneNumber": 16781209,
+            "ParameterTwoRecord": "A388E0:Mantella.esp",
+            "ParameterTwoNumber": 1000573152,
+            "ParameterTwoString": "::allowTrackPlayerState_var"
+          }
+        }
+      ]
+    },
+    {
+      "ItemText": {
+        "TargetLanguage": "English",
+        "Value": "Turn player state tracking ON"
+      },
+      "Type": "DisplayText",
+      "ItemId": 22,
+      "DisplayText": {
+        "TargetLanguage": "English",
+        "Value": "Player state tracking is turned ON\r\n\r\n\r\n\r\n"
+      },
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "GetVMQuestVariable",
+            "ParameterOneRecord": "000F99:Mantella.esp",
+            "ParameterOneNumber": 16781209,
+            "ParameterTwoRecord": "A385D8:Mantella.esp",
+            "ParameterTwoNumber": 1000572376,
+            "ParameterTwoString": "::allowTrackPlayerState_var"
           }
         }
       ]

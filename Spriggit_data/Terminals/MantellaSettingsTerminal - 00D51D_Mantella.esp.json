@@ -196,8 +196,8 @@
             "Function": "GetVMQuestVariable",
             "ParameterOneRecord": "000F99:Mantella.esp",
             "ParameterOneNumber": 16781209,
-            "ParameterTwoRecord": "CABD10:Mantella.esp",
-            "ParameterTwoNumber": -1412776688,
+            "ParameterTwoRecord": "2C3D10:Mantella.esp",
+            "ParameterTwoNumber": 724319504,
             "ParameterTwoString": "::hideVisionMenu_var"
           }
         }

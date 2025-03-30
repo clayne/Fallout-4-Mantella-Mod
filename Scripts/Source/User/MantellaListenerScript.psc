@@ -13,6 +13,7 @@ Scriptname MantellaListenerScript extends ReferenceAlias
 ; ---------------------------------------------
 
 Import F4SE
+Import F4SE_HTTP
 Spell property MantellaSpell auto
 Actor property PlayerRef auto
 Weapon property MantellaGun auto
@@ -28,6 +29,8 @@ GlobalVariable property MantellaRadiantDistance auto
 GlobalVariable property MantellaRadiantFrequency auto
 int RadiantFrequencyTimerID=1
 int CleanupconversationTimer=2
+int DictionaryCleanTimer=3
+
 Float meterUnits = 78.74
 Worldspace PrewarWorldspace
 bool itemsGiven
@@ -112,6 +115,7 @@ Function LoadMantellaEvents()
     registerForPlayerEvents()
     ;Will clean up all all conversation loops if they're still occuring
     ; repository.endFlagMantellaConversationOne = True    
+    StartTimer(3000,DictionaryCleanTimer) 
     If (conversation.IsRunning())   
         Actor[] ActorsInCell = repository.ScanAndReturnNearbyActors(MantellaNPCCollectionQuest, MantellaNPCCollection, false)
         repository.DispelAllMantellaMagicEffectsFromActors(ActorsInCell)
@@ -216,13 +220,22 @@ Event Ontimer( int TimerID)
                 MantellaActorList.stop()
             endIf
         endIf
-      StartTimer(MantellaRadiantFrequency.getValue(),RadiantFrequencyTimerID)   
+        StartTimer(MantellaRadiantFrequency.getValue(),RadiantFrequencyTimerID)   
     elseif TimerID==CleanupconversationTimer 
         if conversation.IsRunning() ;attempts to make a hard reset of the conversation if it's still going on for some reason
             ;previous conversation detected, forcing conversation to end.
             debug.notification("Previous conversation detected on load : Cleaning up.")
             Conversation.CleanupConversation()
             conversation.conversationIsEnding = false
+        endif
+    elseif TimerID==DictionaryCleanTimer 
+        if conversation.IsRunning() 
+            StartTimer(3000,DictionaryCleanTimer) 
+            ;debug.Notification("Can't empty dictionaries because there's an ongoing conversation")
+        else
+            F4SE_HTTP.clearAllDictionaries() ;This function might lead to crash, monitor if players are reporting crashes
+            StartTimer(3000,DictionaryCleanTimer) 
+            ;debug.Notification("Emptying dictionaries after a long period of inactivity to prevent memory leaks")
         endif
     endif
 EndEvent

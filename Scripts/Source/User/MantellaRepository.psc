@@ -251,6 +251,17 @@ Function togglePlayerEventTracking(bool bswitch)
     playerTrackingSleep = bswitch
     playerTrackingCripple = bswitch
     playerTrackingHealTeammate = bswitch
+    allowTrackPlayerState = bswitch
+EndFunction
+
+Function toggleTrackPlayerState (bool bswitch)
+    ;Player tracking variables below
+    if bswitch
+        Debug.notification("Player state tracking is now ON")
+    else
+        Debug.notification("Player state tracking is now OFF")
+    endif
+    allowTrackPlayerState = bswitch
 EndFunction
 
 Function togglePlayerItemEventTracking(bool bswitch)
